@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ALi Habbache | Technical Product Manager</title>
+  <meta name="description" content="Technical Product Manager at IBM. Owner of IBM DevOps Loop. AI-driven platforms, enterprise SaaS, product-led growth." />
+  <meta property="og:title" content="ALi Habbache — Technical Product Manager @ IBM" />
+  <meta property="og:description" content="Building AI-powered developer platforms at IBM. £1.2M pipeline influenced. 60% deployment reduction." />
+  <meta property="og:url" content="https://www.alihabbache.com" />
+  <link rel="canonical" href="https://www.alihabbache.com" />
+  <link rel="shortcut icon" href="assets/images/favicons/favicon.ico" />
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Person","name":"ALi Habbache","jobTitle":"Technical Product Manager","worksFor":{"@type":"Organization","name":"IBM"},"url":"https://www.alihabbache.com"}
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css">
+  <!-- Portfolio CSS -->
+  <link rel="stylesheet" href="assets/css/portfolio.css">
+</head>
+
+<body>
+
+<!-- ── Particle canvas ── -->
+<canvas id="particles-canvas"></canvas>
+
+<!-- ── Layout ── -->
+<div class="pf-layout">
+
+  <!-- Sidebar Nav -->
+  <nav class="pf-nav">
+    <div class="pf-nav-logo">AH</div>
+    <div class="pf-nav-links">
+      <a class="pf-nav-link active" data-section="section-about">
+        <i class="fas fa-user"></i>
+        <span>About</span>
+      </a>
+      <a class="pf-nav-link" data-section="section-resume">
+        <i class="fas fa-briefcase"></i>
+        <span>Resume</span>
+      </a>
+      <a class="pf-nav-link" data-section="section-recs">
+        <i class="fas fa-comment-alt"></i>
+        <span>Reviews</span>
+      </a>
+      <a class="pf-nav-link" data-section="section-contact">
+        <i class="fas fa-at"></i>
+        <span>Contact</span>
+      </a>
+    </div>
+    <div class="pf-nav-socials">
+      <a href="https://www.linkedin.com/in/alihabbache" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://twitter.com/alihabbache" target="_blank" rel="noopener" title="Twitter"><i class="fab fa-twitter"></i></a>
+    </div>
+  </nav>
+
+  <!-- Main content -->
+  <main class="pf-main">
+
+    <!-- Ambient dynamic backdrop glow -->
+    <div class="card-ambient-glow" id="cardAmbientGlow"></div>
+
+    <!-- Modern Artistic Card Deck Stage -->
+    <div class="card-deck-stage" id="cardDeckStage">
+
+      <!-- Top Deck Navigation & Meta Bar -->
+      <header class="deck-topbar">
+        <div class="deck-meta">
+          <div class="deck-badge">
+            <span class="deck-pulse"></span>
+            <span class="deck-badge-label">DOSSIER <strong id="deckCardNum">01</strong> / 04</span>
+          </div>
+          <span class="deck-category-badge" id="deckCategoryBadge">ABOUT &amp; STRATEGY</span>
+        </div>
+
+        <!-- Artistic Deck Switcher Pills -->
+        <nav class="deck-switcher-nav" aria-label="Card Navigation">
+          <div class="deck-nav-slider" id="deckNavSlider"></div>
+          <button class="deck-nav-pill active" data-card="section-about" data-index="0" title="About Card (01)">
+            <span class="pill-num">01</span>
+            <span class="pill-label">About</span>
+          </button>
+          <button class="deck-nav-pill" data-card="section-resume" data-index="1" title="Resume Card (02)">
+            <span class="pill-num">02</span>
+            <span class="pill-label">Resume</span>
+          </button>
+          <button class="deck-nav-pill" data-card="section-recs" data-index="2" title="Reviews Card (03)">
+            <span class="pill-num">03</span>
+            <span class="pill-label">Reviews</span>
+          </button>
+          <button class="deck-nav-pill" data-card="section-contact" data-index="3" title="Contact Card (04)">
+            <span class="pill-num">04</span>
+            <span class="pill-label">Contact</span>
+          </button>
+        </nav>
+
+        <!-- Stepper Buttons (Prev / Next) -->
+        <div class="deck-stepper-btns">
+          <button class="deck-step-btn" id="deckPrevBtn" aria-label="Previous card (Left Arrow)" title="Previous card (←)">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="deck-step-btn" id="deckNextBtn" aria-label="Next card (Right Arrow)" title="Next card (→)">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+      </header>
+
+      <!-- 3D Card Stack Illusion Underlays -->
+      <div class="deck-stack-underlay stack-layer-2" aria-hidden="true"></div>
+      <div class="deck-stack-underlay stack-layer-1" aria-hidden="true"></div>
+
+      <!-- Cards Container -->
+      <div class="deck-cards-wrapper" id="deckCardsWrapper">
+
+        <!-- ══════════════════════════════
+             CARD 01: ABOUT
+        ══════════════════════════════ -->
+        <article class="pf-card active" id="section-about" data-card-index="0" data-card-theme="blue" data-card-title="ABOUT &amp; STRATEGY" data-card-category="STRATEGY &amp; LEADERSHIP" role="tabpanel" aria-labelledby="tab-about">
+          <div class="card-glass-frame">
+            
+            <div class="card-artistic-header">
+              <div class="card-header-left">
+                <span class="card-folio-num">CARD 01 // OVERVIEW</span>
+                <span class="card-folio-tag"><i class="fas fa-user"></i> ABOUT ALi</span>
+              </div>
+              <div class="card-header-right">
+              </div>
+            </div>
+
+            <div class="card-body-content">
+              <div class="hero-wrap">
+
+                <!-- Left -->
+                <div class="hero-left">
+                  <h1 class="hero-name">ALi Habbache</h1>
+
+                  <div class="hero-title">
+                    <span id="typed-title"></span>
+                  </div>
+
+                  <p class="hero-bio">
+                    I'm a <strong>Technical Product Leader at IBM Software</strong>, focused on building AI-powered developer platforms that improve how enterprises plan, build, deploy, and operate software. My career sits at the intersection of technology, product strategy, enterprise customers, and commercial growth — progressing from technical architecture through customer transformation into product management and adoption leadership.
+                  </p>
+
+                  <p class="hero-bio">
+                    Today I own the <strong>strategy and roadmap for IBM DevOps Loop</strong> — IBM's AI-driven value stream management and software delivery intelligence platform. I'm particularly interested in AI-native developer experiences, platform engineering, DevOps, and product-led growth.
+                  </p>
+
+                  <div class="hero-actions">
+                    <a href="https://www.linkedin.com/in/alihabbache" target="_blank" rel="noopener" class="btn btn-primary">
+                      <i class="fab fa-linkedin"></i> LinkedIn Profile
+                    </a>
+                    <a class="btn btn-ghost" data-section="section-contact" style="cursor:pointer;">
+                      <i class="fas fa-at"></i> Contact Me
+                    </a>
+                  </div>
+
+                </div>
+
+                <!-- Right — profile card -->
+                <div class="hero-right">
+                  <div class="hero-card">
+                    <img class="hero-card-photo" src="assets/img/bg.jpg" alt="ALi Habbache" />
+                    <div class="hero-card-body">
+                      <div class="hero-card-name">ALi Habbache</div>
+                      <div class="hero-card-role">Technical Product Manager · IBM</div>
+                      <div class="hero-card-tags">
+                        <span class="tag tag-blue">IBM DevOps Loop</span>
+                        <span class="tag tag-indigo">AI Platforms</span>
+                        <span class="tag tag-mint">Product-Led Growth</span>
+                        <span class="tag tag-amber">MSc AI</span>
+                        <span class="tag tag-blue">PSPO II</span>
+                        <span class="tag tag-indigo">MentorCruise</span>
+                      </div>
+                      <div class="hero-card-status">
+                        <span class="status-dot"></span>
+                        London, UK · IBM Software
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- About detail cards -->
+              <div class="about-grid">
+                <div class="about-card">
+                  <div class="about-card-icon">🚀</div>
+                  <div class="about-card-title">What I Build</div>
+                  <p>AI-powered developer platforms that help enterprises plan, build, deploy, and operate software more intelligently. Currently owning the full product lifecycle for IBM DevOps Loop — from strategy and discovery through to delivery and growth.</p>
+                </div>
+                <div class="about-card">
+                  <div class="about-card-icon">🧠</div>
+                  <div class="about-card-title">How I Think</div>
+                  <p>I combine technical depth with commercial rigour — translating customer telemetry, usage analytics, and market intelligence into product requirements, business cases, and measurable outcomes across Engineering, Sales, Marketing, and CS.</p>
+                </div>
+                <div class="about-card">
+                  <div class="about-card-icon">📊</div>
+                  <div class="about-card-title">What I've Delivered</div>
+                  <p>60% reduction in manual deployment workflows. 22% YoY platform usage growth. £1.2M in influenced pipeline. Built four scalable platforms on IBM GitHub Enterprise serving 40 engineers across 7 enterprise software teams.</p>
+                </div>
+                <div class="about-card">
+                  <div class="about-card-icon">🌱</div>
+                  <div class="about-card-title">Beyond IBM</div>
+                  <p>Accepted into MentorCruise to mentor engineers and technical specialists transitioning into product management. Completing an MSc in Artificial Intelligence — deepening expertise in ML, deep learning, and AI strategy.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </article>
+
+        <!-- ══════════════════════════════
+             CARD 02: RESUME
+        ══════════════════════════════ -->
+        <article class="pf-card" id="section-resume" data-card-index="1" data-card-theme="indigo" data-card-title="EXPERIENCE &amp; SKILLS" data-card-category="CAREER &amp; CREDENTIALS" role="tabpanel" aria-labelledby="tab-resume">
+          <div class="card-glass-frame">
+
+            <div class="card-artistic-header">
+              <div class="card-header-left">
+                <span class="card-folio-num">CARD 02 // CAREER</span>
+                <span class="card-folio-tag"><i class="fas fa-briefcase"></i> EXPERIENCE &amp; SKILLS</span>
+              </div>
+              <div class="card-header-right">
+                <span class="card-folio-status">IBM SOFTWARE · GREATER LONDON</span>
+              </div>
+            </div>
+
+            <div class="card-body-content">
+              <div class="pf-section-header">
+                <div class="pf-label">Career Progression</div>
+                <h2 class="pf-section-title">Experience &amp; <em>Skills</em></h2>
+              </div>
+
+              <div class="resume-grid">
+
+                <!-- Timeline -->
+                <div class="timeline">
+
+                  <div class="timeline-item current">
+                    <div class="timeline-spine">
+                      <div class="timeline-dot"></div>
+                      <div class="timeline-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                      <div class="timeline-date">Sep 2026 — Present <span class="now-badge">Now</span></div>
+                      <div class="timeline-role">Technical Product Manager</div>
+                      <div class="timeline-company">IBM — London, UK</div>
+                      <p class="timeline-desc">Own the strategy and roadmap for IBM DevOps Loop — IBM's AI-driven value stream management and software delivery intelligence platform — aligning investment with customer needs and business objectives across the full product lifecycle. Drive adoption, retention, and revenue growth through data-driven decisions using customer telemetry, usage analytics, and market intelligence. Lead cross-functional execution across Engineering, Sales, Marketing, and Customer Success.</p>
+                      <div class="timeline-outcomes">
+                        <span class="tag tag-blue">Value Stream Management</span>
+                        <span class="tag tag-indigo">AI Platforms</span>
+                        <span class="tag tag-mint">Product Roadmap</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="timeline-item current">
+                    <div class="timeline-spine">
+                      <div class="timeline-dot"></div>
+                      <div class="timeline-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                      <div class="timeline-date">Sep 2026 — Present <span class="now-badge">Now</span></div>
+                      <div class="timeline-role">Product &amp; Technical Career Mentor</div>
+                      <div class="timeline-company">MentorCruise — Greater London, UK</div>
+                      <p class="timeline-desc">Supporting engineers and technical professionals moving into product management, drawing on my own path from systems architecture into Technical Product Management at IBM. Focus areas: breaking into PM, product strategy, roadmapping, and navigating technical-to-product career transitions.</p>
+                      <div class="timeline-outcomes">
+                        <span class="tag tag-amber">Mentoring</span>
+                        <span class="tag tag-blue">Technical PM</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="timeline-item">
+                    <div class="timeline-spine">
+                      <div class="timeline-dot"></div>
+                      <div class="timeline-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                      <div class="timeline-date">Feb 2026 — Sep 2026</div>
+                      <div class="timeline-role">Client Adoption Engineering Lead (Technical PM)</div>
+                      <div class="timeline-company">IBM — Hursley, UK (Hybrid)</div>
+                      <p class="timeline-desc">Directed a cross-functional Product &amp; Adoption organisation of up to 40 CAEs across 7 core enterprise software teams. Architected and launched four scalable product platforms on IBM GitHub Enterprise: CAE Onboarding Academy (−2 weeks time-to-value), CAE Deployment Accelerator (−60% manual deployments), CAE Engagement Model (−45% communication overhead), and CAE Impact Dashboard (executive analytics across all 7 units).</p>
+                      <div class="timeline-outcomes">
+                        <span class="tag tag-blue">−60% Deployment Effort</span>
+                        <span class="tag tag-mint">−2wk Time-to-Value</span>
+                        <span class="tag tag-indigo">40-Person Org</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="timeline-item">
+                    <div class="timeline-spine">
+                      <div class="timeline-dot"></div>
+                      <div class="timeline-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                      <div class="timeline-date">Jan 2025 — Dec 2025</div>
+                      <div class="timeline-role">Product Management Leader &amp; Advisory CSM</div>
+                      <div class="timeline-company">IBM — London, UK</div>
+                      <p class="timeline-desc">Led cross-functional team delivering product prototype on time. Defined AI-driven features projected to increase adoption by 18%. Generated £500K in upsell and influenced £1.2M in new business.</p>
+                      <div class="timeline-outcomes">
+                        <span class="tag tag-blue">£1.2M Pipeline</span>
+                        <span class="tag tag-mint">£500K Upsell</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="timeline-item">
+                    <div class="timeline-spine">
+                      <div class="timeline-dot"></div>
+                      <div class="timeline-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                      <div class="timeline-date">Jun 2024 — Dec 2024</div>
+                      <div class="timeline-role">Advisory Customer Success Manager</div>
+                      <div class="timeline-company">IBM — London, UK</div>
+                      <p class="timeline-desc">Delivered multi-portfolio cloud solutions across Automation, FinOps, Data/AI, and Security. Influenced £1.2M in new business and increased adoption readiness by 40%.</p>
+                    </div>
+                  </div>
+
+                  <div class="timeline-item">
+                    <div class="timeline-spine">
+                      <div class="timeline-dot"></div>
+                      <div class="timeline-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                      <div class="timeline-date">Jul 2022 — Jun 2024</div>
+                      <div class="timeline-role">Customer Success Manager — Automation</div>
+                      <div class="timeline-company">IBM — London, UK</div>
+                      <p class="timeline-desc">Scaled automation platform usage 22% YOY across strategic enterprise accounts through targeted adoption strategies, contributing £800K in incremental revenue.</p>
+                      <div class="timeline-outcomes">
+                        <span class="tag tag-blue">22% YoY Growth</span>
+                        <span class="tag tag-mint">£800K Revenue</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="timeline-item">
+                    <div class="timeline-spine">
+                      <div class="timeline-dot"></div>
+                      <div class="timeline-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                      <div class="timeline-date">Aug 2018 — Jun 2022</div>
+                      <div class="timeline-role">Solutions Architect &amp; Product Integration</div>
+                      <div class="timeline-company">De La Rue — Basingstoke, UK</div>
+                      <p class="timeline-desc">Designed integration solutions supporting £10M+ proposals. Optimized workflows improving efficiency by 12% and reducing downtime by 30%.</p>
+                    </div>
+                  </div>
+
+                  <div class="timeline-item">
+                    <div class="timeline-spine">
+                      <div class="timeline-dot"></div>
+                      <div class="timeline-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                      <div class="timeline-date">Apr 2017 — Jul 2018</div>
+                      <div class="timeline-role">IT Manager &amp; Integration Leader</div>
+                      <div class="timeline-company">Ajman Academy — UAE</div>
+                      <p class="timeline-desc">Led IT infrastructure and integration projects for an international educational institution. Deployed Apple and Google classroom technology across the school estate.</p>
+                    </div>
+                  </div>
+
+                </div><!-- /timeline -->
+
+                <!-- Sidebar -->
+                <div class="resume-sidebar">
+
+                  <div class="sidebar-block">
+                    <div class="sidebar-title">Core Skills</div>
+
+                    <div class="skill-row">
+                      <div class="skill-meta">
+                        <span class="skill-name">Product Strategy &amp; Roadmapping</span>
+                        <span class="skill-pct">95%</span>
+                      </div>
+                      <div class="skill-bar"><div class="skill-fill" style="width:95%; --delay:0.1s"></div></div>
+                    </div>
+
+                    <div class="skill-row">
+                      <div class="skill-meta">
+                        <span class="skill-name">Cross-functional Leadership</span>
+                        <span class="skill-pct">92%</span>
+                      </div>
+                      <div class="skill-bar"><div class="skill-fill" style="width:92%; --delay:0.2s"></div></div>
+                    </div>
+
+                    <div class="skill-row">
+                      <div class="skill-meta">
+                        <span class="skill-name">Enterprise SaaS &amp; Adoption</span>
+                        <span class="skill-pct">90%</span>
+                      </div>
+                      <div class="skill-bar"><div class="skill-fill" style="width:90%; --delay:0.3s"></div></div>
+                    </div>
+
+                    <div class="skill-row">
+                      <div class="skill-meta">
+                        <span class="skill-name">Data-Driven Decision Making</span>
+                        <span class="skill-pct">88%</span>
+                      </div>
+                      <div class="skill-bar"><div class="skill-fill" style="width:88%; --delay:0.4s"></div></div>
+                    </div>
+
+                    <div class="skill-row">
+                      <div class="skill-meta">
+                        <span class="skill-name">AI Strategy &amp; Implementation</span>
+                        <span class="skill-pct">82%</span>
+                      </div>
+                      <div class="skill-bar"><div class="skill-fill" style="width:82%; --delay:0.5s"></div></div>
+                    </div>
+
+                    <div class="skill-row">
+                      <div class="skill-meta">
+                        <span class="skill-name">Stakeholder Management</span>
+                        <span class="skill-pct">93%</span>
+                      </div>
+                      <div class="skill-bar"><div class="skill-fill" style="width:93%; --delay:0.6s"></div></div>
+                    </div>
+                  </div>
+
+                  <div class="sidebar-block">
+                    <div class="sidebar-title">Education</div>
+                    <div class="edu-item">
+                      <div class="edu-degree">MSc Artificial Intelligence</div>
+                      <div class="edu-school">IU International University, Germany</div>
+                      <div class="edu-year">In Progress — Expected 2028</div>
+                    </div>
+                    <div class="edu-item">
+                      <div class="edu-degree">BSc Computing Information Systems</div>
+                      <div class="edu-school">University of Dubai — ABET Accredited</div>
+                      <div class="edu-year">2005 — 2011</div>
+                    </div>
+                  </div>
+
+                  <div class="sidebar-block">
+                    <div class="sidebar-title">Certifications</div>
+                    <div class="cert-wrap">
+                      <span class="cert">PSPO II — Scrum.org</span>
+                      <span class="cert">PMP® — PMI</span>
+                      <span class="cert">Product Discovery — Pendo</span>
+                      <span class="cert">AI for PM — Google Cloud</span>
+                      <span class="cert">Digital Product Eng — IBM</span>
+                      <span class="cert">IBM Architect — Advanced</span>
+                      <span class="cert">IBM SRE — Professional</span>
+                      <span class="cert">ITIL® 4 Foundation</span>
+                      <span class="cert">Azure Enterprise Dev</span>
+                    </div>
+                  </div>
+
+                </div><!-- /sidebar -->
+
+              </div><!-- /resume-grid -->
+            </div>
+
+          </div>
+        </article>
+
+        <!-- ══════════════════════════════
+             CARD 03: REVIEWS
+        ══════════════════════════════ -->
+        <article class="pf-card" id="section-recs" data-card-index="2" data-card-theme="purple" data-card-title="REVIEWS &amp; PRAISE" data-card-category="PEER &amp; EXECUTIVE FEEDBACK" role="tabpanel" aria-labelledby="tab-reviews">
+          <div class="card-glass-frame">
+
+            <div class="card-artistic-header">
+              <div class="card-header-left">
+                <span class="card-folio-num">CARD 03 // TESTIMONIALS</span>
+                <span class="card-folio-tag"><i class="fas fa-comment-alt"></i> WHAT PEOPLE SAY</span>
+              </div>
+              <div class="card-header-right">
+                <span class="card-folio-status">8 VERIFIED ENDORSEMENTS</span>
+              </div>
+            </div>
+
+            <div class="card-body-content">
+              <div class="pf-section-header">
+                <div class="pf-label">Social Proof</div>
+                <h2 class="pf-section-title">What People <em>Say</em></h2>
+              </div>
+
+              <div class="recs-grid">
+
+                <div class="rec-card">
+                  <p class="rec-quote">"ALi is tenacious, growth-minded individual who is always proactively seeking solutions to challenges and problems. In meetings, Ali asks thoughtful questions, showcasing his skills in active listening. It's been wonderful to see Ali actively applying advice and recommendations given, resulting in him making great strides towards becoming an effective product manager."</p>
+                  <div class="rec-author">
+                    <div class="rec-name">Grace Robinson</div>
+                    <div class="rec-role">Product Manager | Developer Experience &amp; Java Tooling Strategy | iMBA</div>
+                  </div>
+                </div>
+
+                <div class="rec-card">
+                  <p class="rec-quote">"I have been working with ALi for some time now. At his instigation we have had regular sessions to discuss multiple aspects of product management with each call focused on a critical area. ALi came prepared with meticulous research and focused questions. I will look forward to further discussions as ALi continues his Product Management skill growth."</p>
+                  <div class="rec-author">
+                    <div class="rec-name">Leif Davidsen</div>
+                    <div class="rec-role">Program Director, Product Management for IBM Cloud Pak for Integration</div>
+                  </div>
+                </div>
+
+                <div class="rec-card">
+                  <p class="rec-quote">"Ali demonstrates just what you want to see in up and coming technology professionals — growth mindset with a proactive and forthright approach to request guidance and feedback. He questioned to deeply understand and then put into practice. And then something you don't often see — he reported back. His approach will no doubt bear a great product leader."</p>
+                  <div class="rec-author">
+                    <div class="rec-name">Benjamin Hickey</div>
+                    <div class="rec-role">Technology Executive | Systems Engineering · Management Consulting</div>
+                  </div>
+                </div>
+
+                <div class="rec-card">
+                  <p class="rec-quote">"I worked with Ali at De La Rue. Ali is full of energy and is keen to help his colleagues in any situation. He has excellent technical knowledge and is keen to learn new areas of work. Ali builds good working relationships with customers and stakeholders to achieve great outcomes."</p>
+                  <div class="rec-author">
+                    <div class="rec-name">Andy Stephens</div>
+                    <div class="rec-role">Senior Product Manager | 15+ Years Experience</div>
+                  </div>
+                </div>
+
+                <div class="rec-card">
+                  <p class="rec-quote">"Ali is a joy to work with. He is full of passion, motivation, dedication and commitment, not only to his own role but for the overall business and the people within it. He builds strong relationships, will go above and beyond to help people, and is always looking at ways to develop himself and the business he works within."</p>
+                  <div class="rec-author">
+                    <div class="rec-name">Nicole Paddon</div>
+                    <div class="rec-role">Group HR Business Partner at De La Rue</div>
+                  </div>
+                </div>
+
+                <div class="rec-card">
+                  <p class="rec-quote">"I had the opportunity to work with Ali on a project focused on app integration. Ali was highly detail-oriented, collaborative, and proactive throughout the process. He brought clarity to complex topics and ensured the final output was well-organised and practical. It was a pleasure working with him."</p>
+                  <div class="rec-author">
+                    <div class="rec-name">Goutham Bhaskar A</div>
+                    <div class="rec-role">IIM Trichy | Product Manager at IBM</div>
+                  </div>
+                </div>
+
+                <div class="rec-card">
+                  <p class="rec-quote">"Working with ALi Habbache was amazing. I found him as someone with great experience and profound knowledge of business solutions. Proactive, ambitious, committed and broad-minded perfectionist. His performance at Ajman Academy was golden. He most definitely shines in a fast-paced environment."</p>
+                  <div class="rec-author">
+                    <div class="rec-name">Dr. Tassos Anastasiades</div>
+                    <div class="rec-role">International School Development Expert | IB Authorisation Specialist</div>
+                  </div>
+                </div>
+
+                <div class="rec-card">
+                  <p class="rec-quote">"Ali is a proactive, sparky individual who can always be relied upon during the last hour. His energy bounces across every call and he energises everyone around him. His positive approach and attitude is second to none and technical knowledge is always valued when working on bids with him."</p>
+                  <div class="rec-author">
+                    <div class="rec-name">Sharan Gill CP APMP</div>
+                    <div class="rec-role">Associate Director Compliance &amp; Risk at Crane Authentication</div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </article>
+
+        <!-- ══════════════════════════════
+             CARD 04: CONTACT
+        ══════════════════════════════ -->
+        <article class="pf-card" id="section-contact" data-card-index="3" data-card-theme="emerald" data-card-title="GET IN TOUCH" data-card-category="LET'S CONNECT" role="tabpanel" aria-labelledby="tab-contact">
+          <div class="card-glass-frame">
+
+            <div class="card-artistic-header">
+              <div class="card-header-left">
+                <span class="card-folio-num">CARD 04 // CONNECT</span>
+                <span class="card-folio-tag"><i class="fas fa-at"></i> LET'S CONNECT</span>
+              </div>
+              <div class="card-header-right">
+                <span class="card-folio-status"><span class="status-pulse-dot"></span> DIRECT INBOX OPEN</span>
+              </div>
+            </div>
+
+            <div class="card-body-content">
+              <div class="pf-section-header">
+                <div class="pf-label">Get in Touch</div>
+                <h2 class="pf-section-title">Let's <em>Connect</em></h2>
+              </div>
+
+              <div class="contact-wrap">
+
+                <div>
+                  <p class="contact-intro">
+                    I'm always open to <strong>strategic conversations</strong> — whether that's product leadership opportunities, advisory work, mentoring, or just talking shop about AI platforms, DevOps, and product-led growth.
+                  </p>
+
+                  <div class="contact-items">
+                    <div class="contact-item">
+                      <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                      <div>
+                        <div class="contact-label">Location</div>
+                        <div class="contact-value">London, United Kingdom</div>
+                      </div>
+                    </div>
+                    <div class="contact-item">
+                      <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                      <div>
+                        <div class="contact-label">Email</div>
+                        <div class="contact-value"><a href="mailto:ali.habbache@gmail.com">ali.habbache@gmail.com</a></div>
+                      </div>
+                    </div>
+                    <div class="contact-item">
+                      <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+                      <div>
+                        <div class="contact-label">LinkedIn</div>
+                        <div class="contact-value"><a href="https://www.linkedin.com/in/alihabbache" target="_blank" rel="noopener">linkedin.com/in/alihabbache</a></div>
+                      </div>
+                    </div>
+                    <div class="contact-item">
+                      <div class="contact-icon"><i class="fas fa-building"></i></div>
+                      <div>
+                        <div class="contact-label">Currently</div>
+                        <div class="contact-value">Technical Product Manager @ IBM · Product Mentor @ MentorCruise</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="avail-card">
+                  <div class="avail-header">
+                    <span class="status-dot"></span>
+                    <span class="avail-title">Open to conversations</span>
+                  </div>
+                  <p class="avail-body">
+                    Whether you're a founder looking for product advisory, a professional transitioning into PM, or exploring collaboration — reach out. I respond to every message.
+                  </p>
+                  <div class="avail-links">
+                    <a href="https://www.linkedin.com/in/alihabbache" target="_blank" rel="noopener" class="avail-link">
+                      <i class="fab fa-linkedin"></i>
+                      <div>
+                        <div class="avail-link-text">Connect on LinkedIn</div>
+                        <div class="avail-link-sub">Best way to reach me</div>
+                      </div>
+                    </a>
+                    <a href="mailto:ali.habbache@gmail.com" class="avail-link">
+                      <i class="fas fa-envelope"></i>
+                      <div>
+                        <div class="avail-link-text">Send an Email</div>
+                        <div class="avail-link-sub">ali.habbache@gmail.com</div>
+                      </div>
+                    </a>
+                    <a href="https://mentorcruise.com" target="_blank" rel="noopener" class="avail-link">
+                      <i class="fas fa-graduation-cap"></i>
+                      <div>
+                        <div class="avail-link-text">Book a Mentoring Session</div>
+                        <div class="avail-link-sub">Via MentorCruise</div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </article>
+
+      </div><!-- /deck-cards-wrapper -->
+
+      <!-- Card Deck Bottom Control / Progress Bar -->
+      <footer class="deck-footer">
+        <div class="deck-progress-track">
+          <div class="deck-progress-fill" id="deckProgressFill" style="width: 25%;"></div>
+        </div>
+        <div class="deck-footer-hints">
+          <span class="keyboard-hint"><kbd>←</kbd> <kbd>→</kbd> Navigate cards</span>
+          <span class="swipe-hint" id="deckHintLabel">Card 1 of 4 · Use tabs, arrows, or swipe</span>
+        </div>
+      </footer>
+
+    </div><!-- /card-deck-stage -->
+
+  </main><!-- /pf-main -->
+
+</div><!-- /pf-layout -->
+
+<!-- Mobile bottom nav -->
+<nav class="mobile-nav">
+  <div class="mobile-nav-btn active" data-section="section-about"><i class="fas fa-user"></i><span>About</span></div>
+  <div class="mobile-nav-btn" data-section="section-resume"><i class="fas fa-briefcase"></i><span>Resume</span></div>
+  <div class="mobile-nav-btn" data-section="section-recs"><i class="fas fa-comment-alt"></i><span>Reviews</span></div>
+  <div class="mobile-nav-btn" data-section="section-contact"><i class="fas fa-at"></i><span>Contact</span></div>
+</nav>
+
+<!-- Scripts -->
+<script src="assets/js/typed.js"></script>
+<script>
+(function () {
+  'use strict';
+
+  /* ── Modern Artistic Card Switching Deck Controller ── */
+  var cards = Array.from(document.querySelectorAll('.pf-card'));
+  var navPills = Array.from(document.querySelectorAll('.deck-nav-pill'));
+  var slider = document.getElementById('deckNavSlider');
+  var prevBtn = document.getElementById('deckPrevBtn');
+  var nextBtn = document.getElementById('deckNextBtn');
+  var numEl = document.getElementById('deckCardNum');
+  var catBadge = document.getElementById('deckCategoryBadge');
+  var progressFill = document.getElementById('deckProgressFill');
+  var hintLabel = document.getElementById('deckHintLabel');
+  var ambientGlow = document.getElementById('cardAmbientGlow');
+  var currentIndex = 0;
+  var isTransitioning = false;
+
+  var cardMeta = [
+    { id: 'section-about',   num: '01', title: 'ABOUT & STRATEGY',    theme: 'blue',    hint: 'Card 1 of 4 · Strategy & Overview' },
+    { id: 'section-resume',  num: '02', title: 'EXPERIENCE & SKILLS', theme: 'indigo',  hint: 'Card 2 of 4 · Career & Credentials' },
+    { id: 'section-recs',    num: '03', title: 'REVIEWS & PRAISE',    theme: 'purple',  hint: 'Card 3 of 4 · Endorsements' },
+    { id: 'section-contact', num: '04', title: 'GET IN TOUCH',        theme: 'emerald', hint: 'Card 4 of 4 · Let\'s Connect' }
+  ];
+
+  function updateSliderPosition(idx) {
+    if (!slider || !navPills[idx]) return;
+    var pill = navPills[idx];
+    slider.style.width = pill.offsetWidth + 'px';
+    slider.style.transform = 'translateX(' + pill.offsetLeft + 'px)';
+  }
+
+  function switchToCard(target, direction) {
+    var targetIndex = -1;
+    if (typeof target === 'number') {
+      targetIndex = target;
+    } else if (typeof target === 'string') {
+      var cleanId = target.replace('#', '');
+      targetIndex = cards.findIndex(function (c) { return c.id === cleanId; });
+    }
+
+    if (targetIndex < 0 || targetIndex >= cards.length || targetIndex === currentIndex) {
+      return;
+    }
+
+    if (isTransitioning) return;
+    isTransitioning = true;
+
+    var dir = direction !== undefined ? direction : (targetIndex > currentIndex ? 1 : -1);
+    var currentCard = cards[currentIndex];
+    var nextCard = cards[targetIndex];
+    var meta = cardMeta[targetIndex];
+
+    // Prepare motion classes
+    cards.forEach(function (c) {
+      c.classList.remove('exit-left', 'exit-right', 'enter-left', 'enter-right');
+    });
+
+    if (dir > 0) {
+      currentCard.classList.add('exit-left');
+      nextCard.classList.add('enter-right');
+    } else {
+      currentCard.classList.add('exit-right');
+      nextCard.classList.add('enter-left');
+    }
+
+    // Force layout reflow for animation initiation
+    void nextCard.offsetWidth;
+
+    // Trigger transition to active state
+    currentCard.classList.remove('active');
+    nextCard.classList.add('active');
+
+    // Update active nav elements
+    navPills.forEach(function (p, i) {
+      p.classList.toggle('active', i === targetIndex);
+    });
+    updateSliderPosition(targetIndex);
+
+    document.querySelectorAll('.pf-nav-link, .mobile-nav-btn').forEach(function (link) {
+      var sec = link.getAttribute('data-section');
+      link.classList.toggle('active', sec === meta.id);
+    });
+
+    // Update Meta texts & Progress
+    if (numEl) numEl.textContent = meta.num;
+    if (catBadge) catBadge.textContent = meta.title;
+    if (progressFill) progressFill.style.width = ((targetIndex + 1) / cards.length * 100) + '%';
+    if (hintLabel) hintLabel.textContent = meta.hint;
+    if (ambientGlow) ambientGlow.setAttribute('data-theme', meta.theme);
+
+    // Reset card inner scroll position
+    var cardBody = nextCard.querySelector('.card-glass-frame');
+    if (cardBody) cardBody.scrollTop = 0;
+
+    currentIndex = targetIndex;
+
+    // Subtle physical deck underlay pulse
+    var stage = document.getElementById('cardDeckStage');
+    if (stage) {
+      stage.classList.add('deck-switching');
+      setTimeout(function () { stage.classList.remove('deck-switching'); }, 400);
+    }
+
+    // Safe hash update
+    if (history.replaceState) {
+      history.replaceState(null, null, '#' + meta.id);
+    }
+
+    setTimeout(function () {
+      cards.forEach(function (c) {
+        c.classList.remove('exit-left', 'exit-right', 'enter-left', 'enter-right');
+      });
+      isTransitioning = false;
+    }, 550);
+  }
+
+  // Pill Clicks
+  navPills.forEach(function (pill) {
+    pill.addEventListener('click', function () {
+      var idx = parseInt(this.getAttribute('data-index'), 10);
+      switchToCard(idx);
+    });
+  });
+
+  // Sidebar / Mobile Nav / In-page links
+  document.querySelectorAll('[data-section]').forEach(function (el) {
+    el.addEventListener('click', function (e) {
+      e.preventDefault();
+      var sectionId = this.getAttribute('data-section');
+      switchToCard(sectionId);
+    });
+  });
+
+  // Prev / Next Stepper buttons
+  if (prevBtn) {
+    prevBtn.addEventListener('click', function () {
+      var prevIndex = (currentIndex - 1 + cards.length) % cards.length;
+      switchToCard(prevIndex, -1);
+    });
+  }
+  if (nextBtn) {
+    nextBtn.addEventListener('click', function () {
+      var nextIndex = (currentIndex + 1) % cards.length;
+      switchToCard(nextIndex, 1);
+    });
+  }
+
+  // Keyboard navigation (ArrowLeft / ArrowRight)
+  window.addEventListener('keydown', function (e) {
+    if (['input', 'textarea'].includes((document.activeElement.tagName || '').toLowerCase())) return;
+    if (e.key === 'ArrowRight') {
+      var nextIdx = (currentIndex + 1) % cards.length;
+      switchToCard(nextIdx, 1);
+    } else if (e.key === 'ArrowLeft') {
+      var prevIdx = (currentIndex - 1 + cards.length) % cards.length;
+      switchToCard(prevIdx, -1);
+    }
+  });
+
+  // Touch Swipe Gesture Navigation
+  var touchStartX = 0;
+  var touchStartY = 0;
+  var stageEl = document.getElementById('cardDeckStage') || document.body;
+
+  stageEl.addEventListener('touchstart', function (e) {
+    if (e.touches.length === 1) {
+      touchStartX = e.touches[0].clientX;
+      touchStartY = e.touches[0].clientY;
+    }
+  }, { passive: true });
+
+  stageEl.addEventListener('touchend', function (e) {
+    if (e.changedTouches.length === 1) {
+      var deltaX = e.changedTouches[0].clientX - touchStartX;
+      var deltaY = e.changedTouches[0].clientY - touchStartY;
+      if (Math.abs(deltaX) > 48 && Math.abs(deltaX) > Math.abs(deltaY) * 1.3) {
+        if (deltaX < 0) {
+          // Swipe left -> Next card
+          var nextIdx = (currentIndex + 1) % cards.length;
+          switchToCard(nextIdx, 1);
+        } else {
+          // Swipe right -> Prev card
+          var prevIdx = (currentIndex - 1 + cards.length) % cards.length;
+          switchToCard(prevIdx, -1);
+        }
+      }
+    }
+  }, { passive: true });
+
+  // Initial setup for slider and hash
+  window.addEventListener('load', function () {
+    updateSliderPosition(0);
+    if (window.location.hash) {
+      var hashCard = window.location.hash.replace('#', '');
+      var foundIdx = cards.findIndex(function (c) { return c.id === hashCard; });
+      if (foundIdx >= 0) switchToCard(foundIdx);
+    }
+  });
+
+  window.addEventListener('resize', function () {
+    updateSliderPosition(currentIndex);
+  });
+
+  /* ── Typed.js ── */
+  if (window.Typed) {
+    new Typed('#typed-title', {
+      strings: [
+        'Technical Product Manager @ IBM',
+        'Owner · IBM DevOps Loop',
+        'AI-Powered Platform Builder',
+        'Enterprise SaaS Strategist',
+        'Product Mentor @ MentorCruise'
+      ],
+      typeSpeed: 48,
+      backSpeed: 28,
+      backDelay: 2200,
+      loop: true,
+      showCursor: true,
+      cursorChar: '_'
+    });
+  }
+
+  /* ── Particle canvas ── */
+  var canvas = document.getElementById('particles-canvas');
+  var ctx = canvas.getContext('2d');
+  var particles = [];
+
+  function resize() {
+    canvas.width  = window.innerWidth;
+    canvas.height = window.innerHeight;
+  }
+  resize();
+  window.addEventListener('resize', resize);
+
+  function rand(min, max) { return Math.random() * (max - min) + min; }
+
+  for (var i = 0; i < 55; i++) {
+    particles.push({
+      x: rand(0, window.innerWidth),
+      y: rand(0, window.innerHeight),
+      r: rand(0.8, 2.2),
+      dx: rand(-0.25, 0.25),
+      dy: rand(-0.25, 0.25),
+      o: rand(0.2, 0.6)
+    });
+  }
+
+  function drawParticles() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    particles.forEach(function (p) {
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+      ctx.fillStyle = 'rgba(59,130,246,' + p.o + ')';
+      ctx.fill();
+      p.x += p.dx;
+      p.y += p.dy;
+      if (p.x < 0 || p.x > canvas.width)  p.dx *= -1;
+      if (p.y < 0 || p.y > canvas.height) p.dy *= -1;
+    });
+
+    /* Draw connecting lines */
+    for (var a = 0; a < particles.length; a++) {
+      for (var b = a + 1; b < particles.length; b++) {
+        var dist = Math.hypot(particles[a].x - particles[b].x, particles[a].y - particles[b].y);
+        if (dist < 120) {
+          ctx.beginPath();
+          ctx.moveTo(particles[a].x, particles[a].y);
+          ctx.lineTo(particles[b].x, particles[b].y);
+          ctx.strokeStyle = 'rgba(59,130,246,' + (0.08 * (1 - dist / 120)) + ')';
+          ctx.lineWidth = 0.6;
+          ctx.stroke();
+        }
+      }
+    }
+    requestAnimationFrame(drawParticles);
+  }
+  drawParticles();
+
+})();
+</script>
+</body>
+</html>
