@@ -21,20 +21,6 @@ This repository contains the source of my personal portfolio, published at [alih
 | 03 | **Reviews & Praise** | Recommendations and endorsements from leadership and engineering peers |
 | 04 | **Contact & Advisory** | Strategic advisory, product discussions, and mentoring sessions |
 
-## Features
-
-- **3D card deck:** Sections switch with direction-aware 3D perspective transforms.
-- **Ambient lighting:** The background accent color changes with the active card.
-- **Navigation:** Top tab bar, <kbd>←</kbd> / <kbd>→</kbd> keyboard keys, horizontal swipe on touch devices, sidebar and mobile menu, and URL hash routing.
-- **Micro-interactions:** Rotating headline using Typed.js and a subtle canvas particle background.
-
-## Tech Stack
-
-- **Markup:** Semantic HTML5 with ARIA roles.
-- **Styling:** CSS3 with 3D transforms, Grid, Flexbox, custom properties, and `backdrop-filter`.
-- **Scripting:** Vanilla JavaScript for card transitions, touch gestures, and keyboard handling.
-- **Libraries:** [Typed.js](https://mattboldt.com/demos/typed-js/), [Font Awesome](https://fontawesome.com/), and [Google Fonts](https://fonts.google.com/) (Inter, JetBrains Mono).
-
 ## Contact
 
 - **Website:** [alihabbache.com](https://www.alihabbache.com)
