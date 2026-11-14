@@ -1092,6 +1092,67 @@
     updateSliderPosition(currentIndex);
   });
 
+  /* ── Recommendations pagination ── */
+  (function () {
+    var grid = document.querySelector('.recs-grid');
+    if (!grid) return;
+    var items = Array.from(grid.querySelectorAll('.rec-card'));
+    var perPage = 8;
+    var totalPages = Math.ceil(items.length / perPage);
+    if (totalPages <= 1) return;
+
+    var pager = document.createElement('nav');
+    pager.className = 'recs-pager';
+    pager.setAttribute('aria-label', 'Recommendations pages');
+    grid.parentNode.insertBefore(pager, grid.nextSibling);
+
+    var info = document.createElement('div');
+    info.className = 'recs-pager-info';
+
+    function makeBtn(label, aria, onClick) {
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'recs-pager-btn';
+      b.textContent = label;
+      b.setAttribute('aria-label', aria);
+      b.addEventListener('click', onClick);
+      return b;
+    }
+
+    var current = 1;
+    var prev = makeBtn('‹', 'Previous page', function () { show(current - 1); });
+    var next = makeBtn('›', 'Next page', function () { show(current + 1); });
+    var numBtns = [];
+
+    pager.appendChild(prev);
+    for (var p = 1; p <= totalPages; p++) {
+      (function (page) {
+        var b = makeBtn(String(page), 'Page ' + page, function () { show(page); });
+        numBtns.push(b);
+        pager.appendChild(b);
+      })(p);
+    }
+    pager.appendChild(next);
+    pager.appendChild(info);
+
+    function show(page) {
+      if (page < 1 || page > totalPages) return;
+      current = page;
+      var start = (page - 1) * perPage;
+      var end = start + perPage;
+      items.forEach(function (el, i) { el.hidden = !(i >= start && i < end); });
+      numBtns.forEach(function (b, i) { b.classList.toggle('active', i === page - 1); });
+      prev.disabled = page === 1;
+      next.disabled = page === totalPages;
+      info.textContent = 'Showing ' + (start + 1) + '–' + Math.min(end, items.length) + ' of ' + items.length;
+      var frame = grid.closest('.card-glass-frame');
+      if (frame) frame.scrollTop = 0;
+    }
+
+    show(1);
+  })();
+
+
   /* ── Typed.js ── */
   if (window.Typed) {
     new Typed('#typed-title', {
