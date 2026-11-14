@@ -1114,6 +1114,30 @@ ul { list-style: none; }
   line-height: 1.75;
 }
 
+.timeline-bullets {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.timeline-bullets li {
+  font-size: 13.5px;
+  color: var(--text);
+  line-height: 1.7;
+  position: relative;
+  padding-left: 16px;
+}
+
+.timeline-bullets li::before {
+  content: '–';
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--accent);
+  font-weight: 700;
+}
+
 .timeline-outcomes {
   display: flex;
   flex-wrap: wrap;
