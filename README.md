@@ -14,6 +14,7 @@ I operate at the intersection of systems architecture, applied AI, and developer
 | **[Deploy-Doctor-Agent](https://github.com/alihabbache/Deploy-Doctor-Agent)** | Autonomous CI/CD failure triage and deployment diagnostics agent that inspects logs, identifies root causes, and proposes remediation fixes. | `Python` · `AI Agents` · `CI/CD` |
 | **[MCP-Personal-Knowledge-Server](https://github.com/alihabbache/MCP-Personal-Knowledge-Server)** | Custom Model Context Protocol (MCP) server exposing structured context retrieval and tool orchestration to LLM clients. | `TypeScript` · `MCP` · `Agentic AI` |
 | **[pm-copartner](https://github.com/alihabbache/pm-copartner)** | Open-source suite of specialized AI subagents automating core PM workflows from discovery synthesis to release notes. | `Python` · `Multi-Agent` · `DevEx` |
+| **[PR-Risk-Triage-Agent](https://github.com/alihabbache/PR-Risk-Triage-Agent)** | Shift-left agent that scores every pull request on blast radius, past incident correlation, and author context, then labels risk tiers and routes reviewer attention to the highest-risk changes. | `Python` · `AI Agents` · `GitHub Actions` |
 | **[The-PRD-Architect](https://github.com/alihabbache/The-PRD-Architect)** | Multi-agent system (Market Researcher → UX Specifier → Technical Translator) generating structured PRDs from a single problem brief. | `LangGraph` · `Groq` · `SSE` |
 
 ---
