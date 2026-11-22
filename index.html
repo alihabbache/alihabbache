@@ -40,6 +40,10 @@
         <i class="fas fa-user"></i>
         <span>About</span>
       </a>
+      <a class="pf-nav-link" data-section="section-builds">
+        <i class="fas fa-code-branch"></i>
+        <span>Builds</span>
+      </a>
       <a class="pf-nav-link" data-section="section-resume">
         <i class="fas fa-briefcase"></i>
         <span>Resume</span>
@@ -73,7 +77,7 @@
         <div class="deck-meta">
           <div class="deck-badge">
             <span class="deck-pulse"></span>
-            <span class="deck-badge-label">DOSSIER <strong id="deckCardNum">01</strong> / 04</span>
+            <span class="deck-badge-label">DOSSIER <strong id="deckCardNum">01</strong> / 05</span>
           </div>
           <span class="deck-category-badge" id="deckCategoryBadge">ABOUT &amp; STRATEGY</span>
         </div>
@@ -85,16 +89,20 @@
             <span class="pill-num">01</span>
             <span class="pill-label">About</span>
           </button>
-          <button class="deck-nav-pill" data-card="section-resume" data-index="1" title="Resume Card (02)">
+          <button class="deck-nav-pill" data-card="section-builds" data-index="1" title="Builds Card (02)">
             <span class="pill-num">02</span>
+            <span class="pill-label">Builds</span>
+          </button>
+          <button class="deck-nav-pill" data-card="section-resume" data-index="2" title="Resume Card (03)">
+            <span class="pill-num">03</span>
             <span class="pill-label">Resume</span>
           </button>
-          <button class="deck-nav-pill" data-card="section-recs" data-index="2" title="Recommendations Card (03)">
-            <span class="pill-num">03</span>
+          <button class="deck-nav-pill" data-card="section-recs" data-index="3" title="Recommendations Card (04)">
+            <span class="pill-num">04</span>
             <span class="pill-label">Recommendations</span>
           </button>
-          <button class="deck-nav-pill" data-card="section-contact" data-index="3" title="Contact Card (04)">
-            <span class="pill-num">04</span>
+          <button class="deck-nav-pill" data-card="section-contact" data-index="4" title="Contact Card (05)">
+            <span class="pill-num">05</span>
             <span class="pill-label">Contact</span>
           </button>
         </nav>
@@ -159,6 +167,9 @@
                     <a href="https://www.linkedin.com/in/alihabbache" target="_blank" rel="noopener" class="btn btn-primary">
                       <i class="fab fa-linkedin"></i> LinkedIn Profile
                     </a>
+                    <a class="btn btn-ghost" data-section="section-builds" style="cursor:pointer;">
+                      <i class="fas fa-code-branch"></i> See What I've Built
+                    </a>
                     <a class="btn btn-ghost" data-section="section-contact" style="cursor:pointer;">
                       <i class="fas fa-at"></i> Contact Me
                     </a>
@@ -218,15 +229,107 @@
           </div>
         </article>
 
-        <!-- ══════════════════════════════
-             CARD 02: RESUME
+<!-- ══════════════════════════════
+             CARD 02: BUILDS
         ══════════════════════════════ -->
-        <article class="pf-card" id="section-resume" data-card-index="1" data-card-theme="indigo" data-card-title="EXPERIENCE &amp; SKILLS" data-card-category="CAREER &amp; CREDENTIALS" role="tabpanel" aria-labelledby="tab-resume">
+        <article class="pf-card" id="section-builds" data-card-index="1" data-card-theme="sky" data-card-title="BUILDS &amp; EXPERIMENTS" data-card-category="DEVOPS · AI AGENTS · MCP" role="tabpanel" aria-labelledby="tab-builds">
           <div class="card-glass-frame">
 
             <div class="card-artistic-header">
               <div class="card-header-left">
-                <span class="card-folio-num">CARD 02 // CAREER</span>
+                <span class="card-folio-num">CARD 02 // BUILDS</span>
+                <span class="card-folio-tag"><i class="fas fa-code-branch"></i> WHAT I'VE BUILT</span>
+              </div>
+              <div class="card-header-right">
+                <span class="card-folio-status">6 OPEN-SOURCE REPOS</span>
+              </div>
+            </div>
+
+            <div class="card-body-content">
+              <div class="pf-section-header bd-header">
+                <div class="pf-label">Builds &amp; Experiments</div>
+                <h2 class="bd-title">I'm a Product Manager who enjoys turning <em>client friction into opportunities</em> for better experiences.</h2>
+                <p class="bd-lede">My passion sits at the intersection of DevOps, AI agents, and MCP, where emerging technologies can create real-world impact.</p>
+                <p class="bd-lede">When clients hit a roadblock, I prefer to build and demonstrate solutions rather than describe them in a slide deck. The projects you'll find here are largely weekend experiments and side projects, created to explore new ideas, validate emerging technologies, and stay hands-on with the tools shaping the future of software delivery. Each repository reflects my curiosity, my approach to problem-solving, and my belief that the best way to understand a technology is to build with it.</p>
+              </div>
+
+              <div class="bd-section-tag">Engineering lifecycle</div>
+              <div class="bd-rail">
+
+                <div class="bd-stage" style="--c:#2563eb"><span class="bd-dot"></span><div class="bd-label">01 · Plan</div>
+                  <div class="bd-node"><h3>pm-copartner</h3>
+                    <p>Specialised PM subagents, from discovery synthesis to release notes.</p>
+                    <div class="bd-why"><b>Removes</b>Hours lost to synthesis, drafting and release admin.</div>
+                    <div class="bd-tags"><code>Python</code><code>Multi-Agent</code></div>
+                    <a href="https://github.com/alihabbache/pm-copartner" target="_blank" rel="noopener"><span>View repo →</span><span class="bd-live" data-repo="pm-copartner"></span></a></div></div>
+
+                <div class="bd-stage" style="--c:#4f46e5"><span class="bd-dot"></span><div class="bd-label">02 · Specify</div>
+                  <div class="bd-node"><h3>The-PRD-Architect</h3>
+                    <p>Market Researcher → UX Specifier → Technical Translator, producing a PRD from one brief.</p>
+                    <div class="bd-why"><b>Removes</b>Days spent stitching market, UX and technical thinking into one spec.</div>
+                    <div class="bd-tags"><code>LangGraph</code><code>Groq</code><code>SSE</code></div>
+                    <a href="https://github.com/alihabbache/The-PRD-Architect" target="_blank" rel="noopener"><span>View repo →</span><span class="bd-live" data-repo="The-PRD-Architect"></span></a></div></div>
+
+                <div class="bd-stage" style="--c:#059669"><span class="bd-dot"></span><div class="bd-label">03 · Ship</div>
+                  <div class="bd-node bd-empty">Next frontier.<br>Open to what comes here.</div></div>
+
+                <div class="bd-stage" style="--c:#0d9488"><span class="bd-dot"></span><div class="bd-label">04 · Review</div>
+                  <div class="bd-node"><h3>PR-Risk-Triage-Agent</h3>
+                    <p>Scores PRs on blast radius and incident history, then routes attention to the riskiest.</p>
+                    <div class="bd-why"><b>Removes</b>Equal review effort spent on high- and low-risk changes.</div>
+                    <div class="bd-tags"><code>Python</code><code>GitHub Actions</code></div>
+                    <a href="https://github.com/alihabbache/PR-Risk-Triage-Agent" target="_blank" rel="noopener"><span>View repo →</span><span class="bd-live" data-repo="PR-Risk-Triage-Agent"></span></a></div></div>
+
+                <div class="bd-stage" style="--c:#d97706"><span class="bd-dot"></span><div class="bd-label">05 · Run</div>
+                  <div class="bd-node"><h3>Deploy-Doctor-Agent</h3>
+                    <p>Triages CI/CD failures from logs, finds the root cause and proposes the fix.</p>
+                    <div class="bd-why"><b>Removes</b>Hours of log archaeology after a failed pipeline.</div>
+                    <div class="bd-tags"><code>Python</code><code>CI/CD</code></div>
+                    <a href="https://github.com/alihabbache/Deploy-Doctor-Agent" target="_blank" rel="noopener"><span>View repo →</span><span class="bd-live" data-repo="Deploy-Doctor-Agent"></span></a></div></div>
+              </div>
+
+              <div class="bd-section-tag">Beyond the engineering flow</div>
+              <div class="bd-lanes">
+
+                <div class="bd-lane bd-commercial" style="--c:#0284c7">
+                  <div class="bd-lane-head"><span class="bd-bar"></span><div><small>Commercial lane</small><span>Where product meets the deal</span></div></div>
+                  <div class="bd-node">
+                    <h3>bid-analyser</h3>
+                    <p>Vendor-neutral, evidence-first agent kit that analyses RFPs and bids, maps requirements to documented capabilities, catches over-commitments and keeps an approved cross-bid product gap log.</p>
+                    <div class="bd-why"><b>Removes</b>Gut-feel bid qualification and promises the product can't keep.</div>
+                    <div class="bd-tags"><code>Python</code><code>AI Agents</code><code>Agent Skills</code></div>
+                    <a href="https://github.com/alihabbache/bid-analyser" target="_blank" rel="noopener"><span>View repo →</span><span class="bd-live" data-repo="bid-analyser"></span></a>
+                  </div>
+                </div>
+
+                <div class="bd-lane bd-context" style="--c:#4f46e5">
+                  <div class="bd-lane-head"><span class="bd-bar"></span><div><small>Context layer</small><span>The foundation the roadmap is built around</span></div></div>
+                  <div class="bd-node">
+                    <h3>MCP-Personal-Knowledge-Server</h3>
+                    <p>A custom Model Context Protocol server exposing structured context retrieval and tool orchestration to LLM clients.</p>
+                    <div class="bd-why"><b>Removes</b>Copy-pasted prompts and one-off integrations between LLMs and the tools they need.</div>
+                    <div class="bd-tags"><code>TypeScript</code><code>MCP</code><code>Agentic AI</code></div>
+                    <a href="https://github.com/alihabbache/MCP-Personal-Knowledge-Server" target="_blank" rel="noopener"><span>View repo →</span><span class="bd-live" data-repo="MCP-Personal-Knowledge-Server"></span></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bd-cta"><a href="https://github.com/alihabbache" target="_blank" rel="noopener" class="btn btn-primary"><i class="fab fa-github"></i> Explore all builds on GitHub</a></div>
+            </div>
+
+          </div>
+        </article>
+
+        
+        <!-- ══════════════════════════════
+             CARD 03: RESUME
+        ══════════════════════════════ -->
+        <article class="pf-card" id="section-resume" data-card-index="2" data-card-theme="indigo" data-card-title="EXPERIENCE &amp; SKILLS" data-card-category="CAREER &amp; CREDENTIALS" role="tabpanel" aria-labelledby="tab-resume">
+          <div class="card-glass-frame">
+
+            <div class="card-artistic-header">
+              <div class="card-header-left">
+                <span class="card-folio-num">CARD 03 // CAREER</span>
                 <span class="card-folio-tag"><i class="fas fa-briefcase"></i> EXPERIENCE &amp; SKILLS</span>
               </div>
               <div class="card-header-right">
@@ -482,14 +585,14 @@
         </article>
 
         <!-- ══════════════════════════════
-             CARD 03: RECOMMENDATIONS
+             CARD 04: RECOMMENDATIONS
         ══════════════════════════════ -->
-        <article class="pf-card" id="section-recs" data-card-index="2" data-card-theme="purple" data-card-title="RECOMMENDATIONS" data-card-category="PEER &amp; EXECUTIVE FEEDBACK" role="tabpanel" aria-labelledby="tab-reviews">
+        <article class="pf-card" id="section-recs" data-card-index="3" data-card-theme="purple" data-card-title="RECOMMENDATIONS" data-card-category="PEER &amp; EXECUTIVE FEEDBACK" role="tabpanel" aria-labelledby="tab-reviews">
           <div class="card-glass-frame">
 
             <div class="card-artistic-header">
               <div class="card-header-left">
-                <span class="card-folio-num">CARD 03 // TESTIMONIALS</span>
+                <span class="card-folio-num">CARD 04 // TESTIMONIALS</span>
                 <span class="card-folio-tag"><i class="fas fa-comment-alt"></i> WHAT PEOPLE SAY</span>
               </div>
               <div class="card-header-right">
@@ -760,14 +863,14 @@
         </article>
 
         <!-- ══════════════════════════════
-             CARD 04: CONTACT
+             CARD 05: CONTACT
         ══════════════════════════════ -->
-        <article class="pf-card" id="section-contact" data-card-index="3" data-card-theme="emerald" data-card-title="GET IN TOUCH" data-card-category="LET'S CONNECT" role="tabpanel" aria-labelledby="tab-contact">
+        <article class="pf-card" id="section-contact" data-card-index="4" data-card-theme="emerald" data-card-title="GET IN TOUCH" data-card-category="LET'S CONNECT" role="tabpanel" aria-labelledby="tab-contact">
           <div class="card-glass-frame">
 
             <div class="card-artistic-header">
               <div class="card-header-left">
-                <span class="card-folio-num">CARD 04 // CONNECT</span>
+                <span class="card-folio-num">CARD 05 // CONNECT</span>
                 <span class="card-folio-tag"><i class="fas fa-at"></i> LET'S CONNECT</span>
               </div>
               <div class="card-header-right">
@@ -864,11 +967,11 @@
       <!-- Card Deck Bottom Control / Progress Bar -->
       <footer class="deck-footer">
         <div class="deck-progress-track">
-          <div class="deck-progress-fill" id="deckProgressFill" style="width: 25%;"></div>
+          <div class="deck-progress-fill" id="deckProgressFill" style="width: 20%;"></div>
         </div>
         <div class="deck-footer-hints">
           <span class="keyboard-hint"><kbd>←</kbd> <kbd>→</kbd> Navigate cards</span>
-          <span class="swipe-hint" id="deckHintLabel">Card 1 of 4 · Use tabs, arrows, or swipe</span>
+          <span class="swipe-hint" id="deckHintLabel">Card 1 of 5 · Use tabs, arrows, or swipe</span>
         </div>
       </footer>
 
@@ -881,6 +984,7 @@
 <!-- Mobile bottom nav -->
 <nav class="mobile-nav">
   <div class="mobile-nav-btn active" data-section="section-about"><i class="fas fa-user"></i><span>About</span></div>
+  <div class="mobile-nav-btn" data-section="section-builds"><i class="fas fa-code-branch"></i><span>Builds</span></div>
   <div class="mobile-nav-btn" data-section="section-resume"><i class="fas fa-briefcase"></i><span>Resume</span></div>
   <div class="mobile-nav-btn" data-section="section-recs"><i class="fas fa-comment-alt"></i><span>Recommendations</span></div>
   <div class="mobile-nav-btn" data-section="section-contact"><i class="fas fa-at"></i><span>Contact</span></div>
@@ -907,10 +1011,11 @@
   var isTransitioning = false;
 
   var cardMeta = [
-    { id: 'section-about',   num: '01', title: 'ABOUT & STRATEGY',    theme: 'blue',    hint: 'Card 1 of 4 · Strategy & Overview' },
-    { id: 'section-resume',  num: '02', title: 'EXPERIENCE & SKILLS', theme: 'indigo',  hint: 'Card 2 of 4 · Career & Credentials' },
-    { id: 'section-recs',    num: '03', title: 'RECOMMENDATIONS',    theme: 'purple',  hint: 'Card 3 of 4 · Endorsements' },
-    { id: 'section-contact', num: '04', title: 'GET IN TOUCH',        theme: 'emerald', hint: 'Card 4 of 4 · Let\'s Connect' }
+    { id: 'section-about',   num: '01', title: 'ABOUT & STRATEGY',    theme: 'blue',    hint: 'Card 1 of 5 · Strategy & Overview' },
+    { id: 'section-builds',  num: '02', title: 'BUILDS & EXPERIMENTS', theme: 'sky',     hint: 'Card 2 of 5 · What I\'ve Built' },
+    { id: 'section-resume',  num: '03', title: 'EXPERIENCE & SKILLS', theme: 'indigo',  hint: 'Card 3 of 5 · Career & Credentials' },
+    { id: 'section-recs',    num: '04', title: 'RECOMMENDATIONS',    theme: 'purple',  hint: 'Card 4 of 5 · Endorsements' },
+    { id: 'section-contact', num: '05', title: 'GET IN TOUCH',        theme: 'emerald', hint: 'Card 5 of 5 · Let\'s Connect' }
   ];
 
   function updateSliderPosition(idx) {
@@ -1091,6 +1196,19 @@
   window.addEventListener('resize', function () {
     updateSliderPosition(currentIndex);
   });
+
+  /* ── Builds: live GitHub star counts ── */
+  fetch('https://api.github.com/users/alihabbache/repos?per_page=100')
+    .then(function (r) { return r.ok ? r.json() : []; })
+    .then(function (repos) {
+      repos.forEach(function (repo) {
+        document.querySelectorAll('.bd-live[data-repo="' + repo.name + '"]').forEach(function (el) {
+          el.textContent = '★ ' + repo.stargazers_count;
+        });
+      });
+    })
+    .catch(function () {});
+
 
   /* ── Recommendations pagination ── */
   (function () {
