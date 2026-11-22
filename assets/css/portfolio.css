@@ -28,7 +28,7 @@
   --radius:      16px;
   --radius-sm:   8px;
   --radius-xs:   5px;
-  --nav-w:       80px;
+  --nav-w:       132px;
 }
 
 /* ── Reset ── */
@@ -135,6 +135,7 @@ ul { list-style: none; }
   font-weight: 700;
   letter-spacing: 0.07em;
   text-transform: uppercase;
+  white-space: nowrap;
   transition: color 0.2s ease;
 }
 
