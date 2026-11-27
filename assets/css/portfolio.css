@@ -1678,13 +1678,14 @@ ul { list-style: none; }
   gap: 12px;
   margin: 40px 0 16px;
   font-family: var(--mono);
-  font-size: 11px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--text-bright);
 }
-.bd-section-tag::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+.bd-section-tag::before { content: ''; width: 4px; height: 20px; border-radius: 2px; background: linear-gradient(180deg, var(--accent), var(--indigo)); }
+.bd-section-tag::after { content: ''; flex: 1; height: 1px; background: var(--border-2); }
 
 /* Engineering rail */
 .bd-rail {
