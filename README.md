@@ -1,6 +1,6 @@
 ### Hi, I'm ALi Habbache 👋
 
-**Technical Product Manager @ IBM Software** | Building **Agentic AI**, **Model Context Protocol (MCP)** integrations, and **Autonomous DevSecOps** workflows | **MSc in Artificial Intelligence**
+**Technical Product Manager @ IBM Software** | Building **Agentic AI**, **Model Context Protocol (MCP)** integrations, and **Autonomous DevSecOps** workflows | **MSc in DevOps and Cloud Computing (Starting April 2027)**
 
 I operate at the intersection of systems architecture, applied AI, and developer experience (DevEx)—designing and prototyping multi-agent systems that eliminate friction across the software development lifecycle (SDLC).
 
